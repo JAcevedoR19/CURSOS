@@ -426,7 +426,7 @@ main {
 
 .projects_content-cards {
     max-width: 330px;
-    max-height: 600px;
+    max-height: 40rem;
     background: var(--primary-color);
     display: flex;
     flex-direction: column;
@@ -452,7 +452,7 @@ main {
 }
 
 .projects_content-cards-text {
-    height: 170px;
+    height: 16rem;
     font-size: 17px;
     text-align: justify;
     padding: 0.5rem 1rem;
@@ -955,6 +955,10 @@ body.dark-mode .information__certification img {
         transform: none;
         animation: vibrate 2s ease-in-out;
         filter: contrast(120%);
+    }
+
+    .footer__box-init {
+        font-size: 18px;
     }
 }
 
